@@ -31,7 +31,7 @@ fun ProductCatalogScreen(navController: NavController) {
         Product("Teclado Mecánico", 150.0, "Accesorio", "https://picsum.photos/seed/keyboard/200/300"),
         Product("Monitor 4K", 700.0, "Accesorio", "https://picsum.photos/seed/monitor/200/300")
     )
-
+//DOADASM
     val total = products.sumOf { it.price }
 
     Column(
